@@ -118,5 +118,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: "Comic Sans MS", "Courier", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif, "Meiryo";
+  }
+  li {
+    font-family: "Comic Sans MS", "Courier", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif, "Meiryo";
   }
 }
