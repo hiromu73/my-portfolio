@@ -11,7 +11,7 @@ export default function Home() {
         <Portfolio />
       </main>
       <footer className="mt-auto py-4 flex gap-[24px] flex-wrap items-center justify-center">
-        <a>Go to nextjs.org →</a>
+        <a>Contact</a>
       </footer>
     </div>
   );

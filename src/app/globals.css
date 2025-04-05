@@ -112,15 +112,37 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@import url("https://fonts.googleapis.com/earlyaccess/hannari.css");
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
-    font-family: "Comic Sans MS", "Courier", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif, "Meiryo";
+    font-family: "Comic Sans MS", "One Stroke Script LET", "MYSTICAL", "Courier", "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif, "Meiryo";
   }
-  li {
-    font-family: "Comic Sans MS", "Courier", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif, "Meiryo";
-  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
